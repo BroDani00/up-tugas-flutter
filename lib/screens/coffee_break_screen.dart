@@ -11,7 +11,7 @@ class CoffeeBreakScreen extends StatelessWidget {
       body: Column(
         children: [
           // BAGIAN ATAS: Gambar Coffee (70%)
-          Expanded(flex: 7, child: const CoffeeImageWidget()),
+          Expanded(flex: 6, child: const CoffeeImageWidget()),
 
           // BAGIAN BAWAH: Teks, Icon Geser, Tombol (30%)
           Expanded(

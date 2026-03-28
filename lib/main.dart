@@ -1,6 +1,7 @@
-import 'package:cofcof/screens/detail_screen.dart';
 import 'package:flutter/material.dart';
-//import 'screens/coffee_break_screen.dart';
+import 'package:cofcof/screens/coffee_break_screen.dart';
+// Import home_screen dihapus sementara karena tidak dipakai di sini.
+// Navigasi ke home_screen sudah ditangani di dalam GetStartedButton.
 
 void main() {
   runApp(const MyApp());
@@ -14,8 +15,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Coffee Break',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(primarySwatch: Colors.brown, fontFamily: 'Poppins'),
-      home: const DetailScreen(),
+      theme: ThemeData(
+        primaryColor: const Color(
+          0xFFC67C4E,
+        ), // Warna orange kopi sebagai identitas
+        fontFamily: 'Poppins',
+      ),
+      // Aplikasi dimulai dari halaman Intro
+      home: const CoffeeBreakScreen(),
     );
   }
 }
