@@ -11,11 +11,11 @@ class CoffeeBreakScreen extends StatelessWidget {
       body: Column(
         children: [
           // BAGIAN ATAS: Gambar Coffee (70%)
-          Expanded(flex: 6, child: const CoffeeImageWidget()),
+          Expanded(flex: 7, child: const CoffeeImageWidget()),
 
           // BAGIAN BAWAH: Teks, Icon Geser, Tombol (30%)
           Expanded(
-            flex: 4,
+            flex: 3,
             child: Container(
               decoration: const BoxDecoration(
                 gradient: LinearGradient(
@@ -59,7 +59,7 @@ class CoffeeBreakScreen extends StatelessWidget {
                       ),
                     ),
 
-                    const SizedBox(height: 50),
+                    const SizedBox(height: 40),
 
                     // Icon Geser (3 titik horizontal)
                     Center(
@@ -83,7 +83,7 @@ class CoffeeBreakScreen extends StatelessWidget {
                       ),
                     ),
 
-                    const SizedBox(height: 40),
+                    const SizedBox(height: 25),
 
                     // Tombol Get Started di Bawah Icon Geser
                     const Center(child: GetStartedButton()),

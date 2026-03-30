@@ -60,6 +60,15 @@ flutter:
   # assets:
   assets:
     - assets/images/kopi.jpg
+    - assets/images/capucino.jpg
+    - assets/images/amerikano.jpg
+    - assets/images/coldbrew.jpg
+    - assets/images/eslate.jpg
+    - assets/images/latte.jpg
+    - assets/images/esamer.jpg
+    
+
+    
 
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg

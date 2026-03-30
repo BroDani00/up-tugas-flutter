@@ -8,7 +8,7 @@ class GetStartedButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       width: double.infinity, // Agar tombol lebar memenuhi layar sesuai mockup
-      height: 60,
+      height: 50,
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
           backgroundColor: const Color(0xFFC67C4E), // Warna orange kopi

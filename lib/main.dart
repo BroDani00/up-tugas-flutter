@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:cofcof/screens/coffee_break_screen.dart';
-// Import home_screen dihapus sementara karena tidak dipakai di sini.
-// Navigasi ke home_screen sudah ditangani di dalam GetStartedButton.
 
 void main() {
   runApp(const MyApp());
