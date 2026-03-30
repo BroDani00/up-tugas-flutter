@@ -16,7 +16,7 @@ class Coffee {
   });
 }
 
-// Data dummy untuk katalog aplikasi kamu
+// Data list kopi
 List<Coffee> listCoffee = [
   Coffee(
     name: "Cappuccino",

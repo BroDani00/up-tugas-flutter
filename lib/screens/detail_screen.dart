@@ -68,7 +68,7 @@ class _DetailScreenState extends State<DetailScreen> {
     );
   }
 
-  // --- SUB-WIDGETS RINGKAS ---
+  // --- SUB-WIDGETS ---
 
   Widget _buildImage() => ClipRRect(
     borderRadius: BorderRadius.circular(20),

@@ -7,7 +7,7 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Tentukan tinggi header gelap agar kita bisa hitung posisi tengahnya
+    // tinggi header 
     double headerHeight = 280.0;
     double searchBarHeight = 52.0;
 
@@ -27,7 +27,7 @@ class HomeScreen extends StatelessWidget {
                   width: double.infinity,
                   padding: const EdgeInsets.symmetric(horizontal: 20),
                   decoration: const BoxDecoration(
-                    color: Color(0xFF1C1C1C), // Warna abu gelap sesuai mockup
+                    color: Color(0xFF1C1C1C), // Warna
                   ),
                   child: SafeArea(
                     child: Column(
@@ -40,7 +40,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
 
-                // 2. SEARCH BAR (MENGGANTUNG DI TENGAH)
+                // 2. SEARCH BAR MENGGANTUNG DI TENGAH
                 Positioned(
                   bottom:
                       -(searchBarHeight /
@@ -55,7 +55,7 @@ class HomeScreen extends StatelessWidget {
             // 3. BAGIAN BLOK BAWAH (WARNA PUTIH)
             const SizedBox(
               height: 35,
-            ), // Beri jarak karena search bar memakan tempat
+            ), // Beri jarak
             Padding(
               padding: const EdgeInsets.only(top: 20),
               child: Column(
@@ -72,7 +72,7 @@ class HomeScreen extends StatelessWidget {
     );
   }
 
-  // Widget Lokasi & Profil (Tetap di area gelap)
+  // Widget Lokasi & Profil 
   Widget _buildLocationHeader() {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
