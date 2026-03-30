@@ -98,7 +98,7 @@ class CoffeeBreakScreen extends StatelessWidget {
                           decoration: BoxDecoration(
                             color: index == 0
                                 ? Colors.white
-                                : Colors.white.withOpacity(0.5),
+                                : Colors.white.withValues(alpha: 0.5),
                             borderRadius: BorderRadius.circular(4),
                           ),
                         ),
