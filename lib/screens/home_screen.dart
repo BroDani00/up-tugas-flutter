@@ -106,9 +106,7 @@ class HomeScreen extends StatelessWidget {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(12),
             image: const DecorationImage(
-              image: NetworkImage(
-                'https://i.pravatar.cc/150?u=a042581f4e29026704d',
-              ),
+              image: AssetImage('assets/images/user.jpg'),
               fit: BoxFit.cover,
             ),
           ),
